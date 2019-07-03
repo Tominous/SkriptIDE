@@ -1,6 +1,6 @@
 package com.skriptide.config;
 
-//import com.google.common.io.Files;
+import com.google.common.io.Files;
 import com.skriptide.Main;
 import org.yaml.snakeyaml.Yaml;
 
