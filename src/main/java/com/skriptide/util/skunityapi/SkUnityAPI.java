@@ -73,7 +73,7 @@ public class SkUnityAPI {
         } catch (Exception e) {
             e.printStackTrace();
         }
-		//	WebUtils.downloadFile(new URL("https://download-cf.jetbrains.com/idea/ideaIC-2016.2.4.exe"), new File(folder.getAbsolutePath() + "/hallo.exe"));
+			WebUtils.downloadFile(new URL("https://download-cf.jetbrains.com/idea/ideaIC-2016.2.4.exe"), new File(folder.getAbsolutePath() + "/hallo.exe"));
 		unZip(new File(folder.getAbsolutePath() + "/api.zip").getAbsolutePath(), folder.getAbsolutePath() + "/output");
 		if (Main.debugMode) {
             System.out.println("Downloaded api");
