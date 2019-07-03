@@ -379,10 +379,10 @@ public class Server {
                 cmd[0] = "java";
                 cmd[1] = "-jar";
                 cmd[2] = "Server.jar";
-               /* for(int i = 3; i != 3 + length; i++) {
+                for(int i = 3; i != 3 + length; i++) {
 
                     cmd[i] = startArgs.split(" ")[i];
-                } */
+                }
                 ProcessBuilder pb = new ProcessBuilder(cmd);
                 pb.directory(folderFile);
                 Process p = null;
@@ -470,7 +470,7 @@ public class Server {
 
 
         if(folder.mkdir()) {
-           // this.configFile = new File(folder, "SkriptIDE-server.yaml");
+            this.configFile = new File(folder, "SkriptIDE-server.yaml");
 
             try {
                 System.gc();
