@@ -227,7 +227,7 @@ public class Project {
                 config.set("files." + name, t);
                 config.save();
                 skFiles.put(t, f);
-               // IdeGuiController.controller.initGui();
+                IdeGuiController.controller.initGui();
 
                 return t;
             }
