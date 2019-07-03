@@ -27,9 +27,9 @@ public class IDESystemErr extends PrintStream {
 		String f = "[" + sdf.format(cal.getTime()) + " | ERROR]" + msg;
 		//TODO Add the DebugArea to the main class or so
 
-		/*if (SceneManager.debugArea != null) {
+		if (SceneManager.debugArea != null) {
 			SceneManager.debugArea.appendText(f + System.getProperty("line.separator"));
-		} */
+		}
 		err += f + "\n";
 		if(!recording) {
 
