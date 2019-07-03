@@ -23,9 +23,9 @@ public class IDESystemOut extends PrintStream {
 			msg = " " + msg;
 		String f = "[" + sdf.format(cal.getTime()) + " | INFO]" + msg;
 		//TODO Add the DebugArea to the main class or so
-	/*	if(IdeGuiController.controller. != null) {
+		if(IdeGuiController.controller. != null) {
 			SceneManager.debugArea.appendText(f + System.getProperty("line.separator"));
-		} */
+		}
 		super.println(f);
 
 	}
